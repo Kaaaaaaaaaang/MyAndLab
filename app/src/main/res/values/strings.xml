@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyAndLab</string>
+    <string name="four_button1">Four_Button(p103)</string>
+    <string name="four_button2">Four_Button(p103, 리니어레이아수웃)</string>
+    <string name="battleground">배틀그라운드 접속하기</string>
+    <string name="hideandseek">숨바꼭질 접속하기</string>
+    <string name="neflix">넷플릭스 사용하기</string>
+    <string name="back">돌아가기</string>
+</resources>
