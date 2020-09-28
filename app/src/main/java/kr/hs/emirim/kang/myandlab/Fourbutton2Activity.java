@@ -19,10 +19,10 @@ public class Fourbutton2Activity extends AppCompatActivity implements View.OnCli
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fourbutton2);
 
-        mbutton1 = findViewById(R.id.button);
-        mbutton2 = findViewById(R.id.button3);
-        mbutton3 = findViewById(R.id.button4);
-        mbutton4 = findViewById(R.id.button5);
+        mbutton1 = findViewById(R.id.button1);
+        mbutton2 = findViewById(R.id.button2);
+        mbutton3 = findViewById(R.id.button3);
+        mbutton4 = findViewById(R.id.button4);
 
 
     }
@@ -31,19 +31,19 @@ public class Fourbutton2Activity extends AppCompatActivity implements View.OnCli
     public void onClick(View view) {
         Intent intent;
         switch(view.getId()){
-            case R.id.button:
+            case R.id.button1:
                 intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.e-mirim.hs.kr/"));
                 startActivity(intent);
                 break;
-            case R.id.button3:
+            case R.id.button2:
                 intent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:/01032080871"));
                 startActivity(intent);
                 break;
-            case R.id.button4:
+            case R.id.button3:
                 intent = new Intent(Intent.ACTION_VIEW, Uri.parse("content://media/internal/images/media"));
                 startActivity(intent);
                 break;
-            case R.id.button5:
+            case R.id.button4:
                 finish();
                 break;
         }

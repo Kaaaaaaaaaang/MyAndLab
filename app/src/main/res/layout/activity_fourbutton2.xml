@@ -8,7 +8,7 @@
     tools:context=".Fourbutton2Activity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#D8C187"
@@ -16,7 +16,7 @@
         android:textColor="#FFFFFF" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#7FC7E6"
@@ -24,7 +24,7 @@
         android:textColor="#FFFFFF" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ACDC67"
@@ -32,7 +32,7 @@
         android:textColor="#FFFFFF" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#D577DF"
